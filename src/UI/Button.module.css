@@ -1,0 +1,19 @@
+.custom-button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.custom-button:active {
+  background-color: #004085; /* Even darker on click */
+}

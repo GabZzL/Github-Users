@@ -1,0 +1,23 @@
+.repository {
+  margin-bottom: 20px; /* Space between repositories */
+  color: #ffffff;
+}
+
+.repository-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.repository-title:hover {
+  color: #0056b3;
+}
+
+.repository-details {
+  font-size: 0.9rem;
+  color: #cccccc;
+  line-height: 1.4;
+}

@@ -1,0 +1,14 @@
+.user-repos {
+  width: 100%; /* Full width to fit the content */
+  max-width: 800px; /* Limit the width for better readability */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #2b2b2b; /* Slightly lighter background for contrast */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  text-align: center;
+}
+
+.user-repos .title {
+  margin-bottom: 10px;
+}

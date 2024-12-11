@@ -1,0 +1,25 @@
+.error {
+  background-color: #2b2b2b; /* Dark background to match the theme */
+  color: #ffffff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 90%; /* Responsive width */
+  max-width: 500px; /* Limit maximum size */
+  min-width: 300px; /* Ensure consistent size for smaller messages */
+  word-wrap: break-word; /* Prevent text overflow for long messages */
+}
+
+.error h2 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff4d4f; /* Red for error emphasis */
+}
+
+.error p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}

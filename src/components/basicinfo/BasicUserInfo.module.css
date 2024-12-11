@@ -1,0 +1,18 @@
+.profile-image {
+  width: 325px;
+  height: 325px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image fits within the bounds */
+  border: 3px solid #ffffff; /* Optional border for emphasis */
+}
+
+.user-info {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1rem;
+  line-height: 1.5; /* Improves readability */
+}
+
+.user-info span {
+  font-weight: bold; /* Highlight important data */
+}
