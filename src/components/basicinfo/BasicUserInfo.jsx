@@ -4,9 +4,8 @@ import { UserContext } from "../../store/github-user-context";
 
 export default function BasicInfo() {
   const { userInfo } = useContext(UserContext);
-  const { user } = userInfo;
 
-  if (Object.keys(user).length === 0) {
+  if (Object.keys(userInfo).length === 0) {
     return;
   }
 
@@ -14,18 +13,18 @@ export default function BasicInfo() {
     <div className={classes["user-info"]}>
       <img
         className={classes["profile-image"]}
-        src={user["avatar_url"]}
+        src={userInfo["avatar_url"]}
         alt="user-picture"
       />
       <p>
-        Followers: <span>{user.followers}</span>
+        Followers: <span>{userInfo.followers}</span>
       </p>
       <p>
-        <a href={user["html_url"]}>{user.login}</a> from{" "}
-        {user.location || "undefined"}
+        <a href={userInfo["html_url"]}>{userInfo.login}</a> from{" "}
+        {userInfo.location || "undefined"}
       </p>
-      <p>{user.bio}</p>
-      <p>Public Repositories {user["public_repos"]}</p>
+      <p>{userInfo.bio}</p>
+      <p>Public Repositories {userInfo["public_repos"]}</p>
     </div>
   );
 }
