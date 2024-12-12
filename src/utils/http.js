@@ -3,8 +3,6 @@ function delay(ms) {
 }
 
 export async function getGitHubUserData(userName) {
-  await delay(2000);
-
   const res = await fetch(`https://api.github.com/users/${userName}`);
   const data = await res.json();
 
@@ -16,8 +14,6 @@ export async function getGitHubUserData(userName) {
 }
 
 export async function getGitHubUserRepos(userName) {
-  await delay(2000);
-
   const res = await fetch(`https://api.github.com/users/${userName}/repos`);
   const data = await res.json();
 
