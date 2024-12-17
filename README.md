@@ -82,6 +82,18 @@ This application uses the [GitHub REST API](https://docs.github.com/en/rest) to 
 
 The project includes utility functions for making API requests and managing errors gracefully.
 
+### Preview
+
+![GitHub Users Preview 1](./src/assets/preview1.png)
+
+![GitHub Users Preview 2](./src/assets/preview2.png)
+
+### Application Link
+
+https://github-user-770d9.web.app
+
+### Information
+
 For any questions or feedback, feel free to reach out:
 
 - GitHub: [GabZzL](https://github.com/GabZzL)
